@@ -1,0 +1,66 @@
+
+@media only screen and (max-width: 500px) {
+    button{
+        font-size: 30px;
+    }
+}
+
+
+
+/*button start*/
+
+button {
+    margin: 3rem;
+    min-height: 70px;
+    min-width: 70%;
+    background: none;
+    border:none;
+    border: 1px solid #666;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    font-family: 'Lato1';
+    font-style: oblique;
+}
+button:hover {
+    transition-duration: 0.3s;
+    background-color: rgb(104, 104, 104); /*цвет при наведении*/
+    box-shadow: 0 0 6px 0 rgb(63, 63, 63);
+    color: rgb(209, 209, 209);
+}
+
+/*button end*/
+
+/*Completed start*/
+
+
+.content  {
+    color:rgb(207, 207, 207);
+}
+.Completed, .process, .frozen, .plans {
+    max-width: 1000px;
+    margin: auto;
+
+}
+.col1 img{
+    width: 300px;
+}
+.col1, .col2{
+    padding: 2rem;
+}
+.h{
+    padding: 1rem 0 0;
+    font-size: 17px;
+}
+.h1{
+    font-size: 35px;
+    font-family: Lato1;
+}
+.h2{
+    padding: 0 3rem;
+    font-size: 20px; 
+}
+.block a {
+    color:rgb(255, 255, 255);
+}
+
